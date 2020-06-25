@@ -1,8 +1,8 @@
-//
-// Written Hugh Smith, Updated: April 2020
-// Use at your own risk.  Feel free to copy, just leave my name in it.
-// Modified by Dylan Carr April 2020
-//
+/* Code written by Hugh Smith	April 2017
+ * Feel free to copy, just leave my name in it, use at your own risk.
+ * Modified by Dylan Carr April 2020
+ * dscarr94@gmail.com
+ */
 #include "networks.h"
 #include "pollLib.h"
 #include "packets.h"
@@ -40,6 +40,7 @@ void receiveBroadcast(uint8_t buf[MAXBUF]);
  * %E
  * %L
 */
+
 int main(int argc, char * argv[]) {
 
 	int clientSocket = 0;  //socket descriptor
@@ -99,7 +100,7 @@ void handleUserInput(int clientSocket, Handle *handle) {
 	uint8_t buf[MAXBUF];
 	uint16_t len = getFromStdin((char *)buf); // len includes null, buf has user input w/ null
 
-	uint8_t cmd = 0; //must initlaize 
+	uint8_t cmd = 0; //must initlaize
 	//assumes first 2 chars are %[letter]
 	if(buf[0] == '%')
 		cmd = buf[1];

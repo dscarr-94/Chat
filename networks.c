@@ -1,7 +1,9 @@
-
-// Hugh Smith April 2017
-// Network code to support TCP client/server connections
-// Feel free to copy, just leave my name in it, use at your own risk.
+/* Hugh Smith April 2017
+ * Network code to support TCP client/server connections
+ * Feel free to copy, just leave my name in it, use at your own risk.
+ * Modified by Dylan Carr April 2020
+ * dscarr94@gmail.com
+ */
 
 #include <stdio.h>
 #include <stdlib.h>

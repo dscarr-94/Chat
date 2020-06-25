@@ -1,8 +1,8 @@
-
-//
-// Written Hugh Smith, Updated: April 2020
-// Use at your own risk.  Feel free to copy, just leave my name in it.
-//
+/* Written Hugh Smith, Updated: April 2020
+ * Use at your own risk.  Feel free to copy, just leave my name in it.
+ * Modified by Dylan Carr April 2020
+ * dscarr94@gmail.com
+ */
 
 
 #ifndef __NETWORKS_H__

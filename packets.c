@@ -1,5 +1,6 @@
 //
 // Written by Dylan Carr April 2020
+// dscarr94@gmail.com
 //
 
 #include "networks.h"

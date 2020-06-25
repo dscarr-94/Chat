@@ -1,5 +1,7 @@
 # Makefile for CPE464 tcp test code
-# written by Hugh Smith - April 2019
+# written by Hugh Smith - April 2017
+# Modified by Dylan Carr April 2020
+# dscarr94@gmail.com
 
 CC= gcc
 CFLAGS= -g -Wall

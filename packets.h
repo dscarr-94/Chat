@@ -1,3 +1,6 @@
+/* Written by Dylan Carr April 2020
+ * dscarr94@gmail.com
+ */
 #ifndef PACKETS_H
 #define PACKETS_H
 
